@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+      <remote name="me"
+          fetch="https://github.com/mikhanastiar" />
+      <remote name="pro"  
+        fetch="https://github.com/PQEnablers-Devices" />
+
+
+<project path="device/xiaomi/ruby" name="device_xiaomi_ruby" remote="me" revision="lineage-20" clone-depth="1" />
+<project path="vendor/xiaomi/ruby" name="vendor_xiaomi_ruby" remote="me" revision="lineage-20" clone-depth="1" />
+<project path="kernel/xiaomi/ruby" name="android_kernel_xiaomi_mt6877" remote="pro" revision="lineage-20" clone-depth="1" />
+<project path="hardware/mediatek" name="hardware_mediatek" remote="me" revision="lineage-20-foss" clone-depth="1" />
+</manifest>
