@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-      <remote name="mikhanastiar"
-          fetch="https://github.com/mikhanastiar" />
-      <remote name="PQEnablers-Devices"  
-        fetch="https://github.com/PQEnablers-Devices" />
-
-<project path="device/xiaomi/ruby" name="device_xiaomi_ruby" remote="mikhanastiar" revision="lineage-20" clone-depth="1" />
-<project path="vendor/xiaomi/ruby" name="vendor_xiaomi_ruby" remote="mikhanastiar" revision="lineage-20" clone-depth="1" />
-<project path="kernel/xiaomi/ruby" name="android_kernel_xiaomi_mt6877" remote="PQEnablers-Device" revision="lineage-20" clone-depth="1" />
-<project path="hardware/mediatek" name="android_hardware_mediatek" remote="PQEnablers-Device" revision="lineage-20-foss" clone-depth="1" />
+  <remote name="mikhanastiar" fetch="https://github.com/mikhanastiar"/>
+  <remote name="PQEnablers-Devices" fetch="https://github.com/PQEnablers-Devices"/>
+  
+<!--Trees-->
+  <project path="device_xiaomi_ruby
+           name="device/xiaomi/ruby"
+           remote="mikhanastiar"
+           revision="lineage-20" />
+           
+  <project path="vendor/xiaomi"
+           name="vendor_xiaomi_ruby"
+           remote="mikhanastiar"
+           revision="lineage-20" />
+           
+  <project path="kernel/xiaomi/mt6877"
+           name="android_kernel_xiaomi_mt6877"
+           remote="PQEnablers-Devices"
+           revision="lineage-20" />
+           
+  <project path="hardware/mediatek"
+           name="android_hardware_mediatek"
+           remote="PQEnablers-Devices"
+           revision="lineage-20-foss" />
+        
 </manifest>
